@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = var.access-key
-  secret_key = var.secret-key
+  access_key = "${../acckey.txt}"
+  secret_key = "${../seckey.txt}"
 
 }
 
